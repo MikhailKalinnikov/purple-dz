@@ -1,0 +1,135 @@
+body{
+	background: linear-gradient(180deg, #374151 0%, #111827 100%);
+ width: 100%;
+	height: 100%;
+	color:#ffffff; 
+	margin: 0;
+}
+
+header{
+	height: 40px; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 71px 180px 80px;
+		input{
+			background: rgba(31, 41, 55, 0.6);
+			font-size: 16px;
+			color: #ffffff;
+			width: 224px; 
+			height: 40px; 
+			padding: 10px 15px;
+			border-radius: 100px;
+		}
+}
+footer{
+	margin-top: 100px; 
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	display: flex; 
+	justify-content: center; 
+	line-height: 28px;
+}
+
+.nav-logo > ul{
+	font-size: 18px;
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+		li{
+			display: inline;
+			margin-left: 11px;
+		}
+}
+.nav-btn{
+	width: 35px;
+	height: 35px;
+	color:#ffffff;  
+	background-color: rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 15px 30px 0px #00000026;
+	font-family: Source Sans Pro;
+	font-weight: 600;
+	font-size: 18px;
+	}
+.nav-links{
+	font-size: 16px;
+		ul{
+			width: 300px; 
+			display: flex; 
+			align-items: center; 
+			justify-content: space-between;
+			li{
+				display: inline;
+			}
+		}
+}
+.section-info-date{
+		margin: auto; 
+		width: fit-content; 
+		display: flex;
+		align-items: center;
+		font-size: 14px;
+		gap: 12px;
+		opacity: 60%;
+			p:nth-of-type(2){
+				width: 4px;
+				height: 4px;
+				border: 1px solid white;
+				border-radius: 100px;
+			}
+}
+.section-info{
+			margin: auto; 
+			width: fit-content;
+			font-size: 24px;
+			text-align-last: center
+}
+.section-autor{
+			margin: 32px auto; 
+			width: fit-content;
+			display: flex;
+			justify-content: space-between;
+}
+.autor-img{
+			width: 50px; 
+			margin-right: 12px;
+}
+.autor-info1{
+		margin:0; 
+		font-size: 16px;
+}
+.autor-info2{
+		margin:0; 
+		opacity: 60%; 
+		font-size: 14px;
+}
+.figure-img{
+		margin:  auto; 
+		width: fit-content;
+		opacity: 1;
+			img{
+				width: 896px;
+				height: 594px;
+			}
+}
+.article{
+		margin:  auto; 
+		width: 708px;
+		letter-spacing: 0;
+		font-weight: 400;
+		font-family: 'Roboto', sans-serif;
+		 p:first-child{
+			line-height: 32px; 
+			font-size: 20px; 
+			margin:20px 0
+		}
+		p:nth-of-type(2){
+			line-height: 30px; 
+			font-size: 16px; 
+			margin:16px 0
+		}
+		p:nth-of-type(3){
+			line-height: 30px; 
+			font-size: 16px;
+		}
+}
